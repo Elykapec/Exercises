@@ -1,0 +1,26 @@
+{
+  "name": "@monorepo/js-utils",
+  "version": "1.0.2",
+  "description": "",
+  "private": true,
+  "types": "lib/esm",
+  "main": "lib",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc --watch -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlyul/js-utils.git",
+    "directory": "packages/js-utils"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.3"
+  }
+}
